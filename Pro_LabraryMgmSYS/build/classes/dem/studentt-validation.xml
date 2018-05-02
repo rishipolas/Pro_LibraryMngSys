@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC 
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+
+		<field name="fullname">
+		
+			<field-validator type="requiredstring">
+			<param name="maxLength">20</param>
+			<param name="minLength">6</param>
+			<message>Give a Proper Name Field is (6-20)</message>
+			</field-validator>
+		
+		</field>
+
+								<field name="ContactNo">
+								
+									<field-validator type="requiredstring">
+									<param name="maxLength">10</param>
+									<message>Mobile No should be in 10 digit</message>
+									</field-validator>
+								
+								</field>
+
+		<field name="EmailId">
+		
+			<field-validator type="requiredstring">
+			<message>Email Id Should in @ Format</message>
+				
+			</field-validator>
+		</field>
+		
+								<field name="address">
+								
+									<field-validator type="requiredstring">
+									<param name="maxLength">100</param>
+									<param name="minLength">6</param>
+									<message>Give a Proper Name Field</message>
+									</field-validator>
+								
+								</field>
+		
+		
+</validators>

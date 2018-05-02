@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC 
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+
+		
+		<field name="NameOfStudent">
+								
+			<field-validator type="requiredstring">
+			<param name="maxLength">30</param>
+			<param name="minLength">3</param>
+			<message>Student Name should be in(3-30) </message>
+			</field-validator>
+								
+		</field>
+		
+		
+		
+								 	
+
+	<field name="DateOfIssue">
+								
+		<field-validator type="requiredstring">
+		
+		<message>Give A Proper Date </message>
+		</field-validator>
+								
+		</field>
+		
+		
+		
+									    <field name="DateOfReturn">
+																
+										<field-validator type="requiredstring">
+								
+										<message>Give A Proper Date Return</message>
+										</field-validator>
+																
+									    </field>
+		
+		
+		
+		
+		
+		
+		
+	<field name="BookId">
+									
+	<field-validator type="requiredstring">
+	<param name="maxLength">10</param>
+	<param name="minLength">1</param>
+	<message>Give a Proper Book id (1-10)</message>
+	</field-validator>
+									
+	</field> 
+									
+									
+										<field name="BookName">
+																	
+												<field-validator type="requiredstring">
+												<param name="maxLength">30</param>
+												<param name="minLength">3</param>
+												<message>Student Name should be in(3-30) </message>
+												</field-validator>
+																	
+											</field>
+</validators>

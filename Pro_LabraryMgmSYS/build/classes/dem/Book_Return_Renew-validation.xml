@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC 
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+
+		
+								 	<field name="BookId">
+									
+										<field-validator type="requiredstring">
+										<param name="maxLength">10</param>
+										<param name="minLength">1</param>
+										<message>Give a Proper Book id (1-10)</message>
+										</field-validator>
+									
+									</field> 
+
+	
+		
+		
+</validators>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts SYSTEM  "struts-2.0.dtd">
+
+<struts>
+
+		<package name="dem" extends="struts-default">
+		
+					<action name="my1" class="dem.demm">
+							<result name="success">Welcome_admin.jsp</result>
+							<result name="error">error.jsp</result>
+							
+					</action>
+					
+					
+					<action name="my2" class="dem.studentt">
+							
+							<result name="success">welcome_student.jsp</result>
+							<result name="error">error.jsp</result>
+							<result name="input">guest.jsp</result>
+							
+					</action>
+				
+					
+					<action name="my4" class="dem.Book_list">
+							
+							<result name="success">Book_list_submit.jsp</result>
+							<result name="error">Errro.jsp</result>
+							<result name="input">Book_list.jsp</result>
+							
+					</action>
+					
+					<action name="my5" class="dem.Book_Issue">
+							
+							<result name="success">Book_Issue_submit.jsp</result>
+							<result name="error">Errro.jsp</result>
+							<result name="input">Welcome_admin.jsp</result>
+							
+					</action>
+					
+					
+					<action name="my6" class="dem.Book_Return_Renew">
+							
+							<result name="success">result.jsp</result>
+							<result name="error">Errro.jsp</result>
+							<result name="input">Return_Renew.jsp</result>
+							
+					</action>
+				
+		</package>
+
+</struts>
